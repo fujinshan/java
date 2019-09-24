@@ -1,4 +1,3 @@
-package main.java;
 
 import com.mongodb.Block;
 import com.mongodb.MongoClient;
@@ -18,7 +17,7 @@ import java.io.*;
  */
 public class upload {
 
-    private final static String URL = "47.105.181.238";
+    private final static String URL = "127.0.0.1";
     private final static Integer PORT = 27017;
     private final static String DATABASE = "local";
     private static MongoClient client;
