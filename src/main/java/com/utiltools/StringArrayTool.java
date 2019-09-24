@@ -59,10 +59,8 @@ public class StringArrayTool {
         return list2;
     }
 
-    //
     /**
-     *Test
-     * @param args
+     *
      * 比较2个数组不相同的元素， 应该遍历多的， 然后在遍历中拿少的跟多的比较。
      * for (T t : 多) {
      * if (!少.contains(t)) {
